@@ -67,136 +67,46 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
-/******/ ({
+/******/ ([
+/* 0 */
+/***/ (function(module, exports) {
 
-/***/ "./components/app.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__("styled-jsx/style");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__feed__ = __webpack_require__("./components/feed.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__weather__ = __webpack_require__("./components/weather.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__time__ = __webpack_require__("./components/time.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__footer__ = __webpack_require__("./components/footer.js");
-var _jsxFileName = '/Users/akalili/GitHub/waiting-room/components/app.js';
-
-
-
-
-
-// import Video from './video-player';
-
-
-/* harmony default export */ __webpack_exports__["a"] = (function () {
-  return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-    'div',
-    {
-      className: 'jsx-557044800' + ' ' + 'main__wrap',
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 8
-      }
-    },
-    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-      'div',
-      {
-        className: 'jsx-557044800' + ' ' + 'time__wrap',
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 9
-        }
-      },
-      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__time__["a" /* default */], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        }
-      })
-    ),
-    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-      'div',
-      {
-        className: 'jsx-557044800' + ' ' + 'feed__wrap',
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12
-        }
-      },
-      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__feed__["a" /* default */], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        }
-      })
-    ),
-    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-      'div',
-      {
-        className: 'jsx-557044800' + ' ' + 'weather__wrap',
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        }
-      },
-      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__weather__["a" /* default */], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        }
-      })
-    ),
-    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-      'div',
-      {
-        className: 'jsx-557044800' + ' ' + 'video__wrap',
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        }
-      },
-      'video player'
-    ),
-    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
-      'div',
-      {
-        className: 'jsx-557044800' + ' ' + 'footer__wrap',
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        }
-      },
-      __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__footer__["a" /* default */], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        }
-      })
-    ),
-    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
-      styleId: '557044800',
-      css: '.main__wrap{margin:0;padding:0;font:15px Helvetica,Arial,sans-serif;display:grid;grid-gap:20px;grid-template-columns:2fr 3fr;}.time__wrap{grid-column:1 / -1;justify-self:right;}.feed__wrap{grid-row-start:span 2;}.feed__wrap ul{list-style:none;padding:0;margin:0;}.feed__wrap li{padding:0;margin:0.5em 0;}.weather__wrap{overflow:hidden;-webkit-align-self:start;-ms-flex-item-align:start;align-self:start;justify-self:stretch;}.weather__wrap img{width:100%;}.video__wrap{-webkit-align-self:stretch;-ms-flex-item-align:stretch;align-self:stretch;display:grid;}.video__wrap iframe{height:418px;justify-self:stretch;-webkit-align-self:stretch;-ms-flex-item-align:stretch;align-self:stretch;}.footer__wrap{grid-column:1 / -1;justify-self:center;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvYXBwLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXNCdUIsQUFHa0IsQUFTVSxBQUlHLEFBR04sQUFLTixBQUlNLEFBS0wsQUFHUSxBQUlOLEFBS00sU0F6Q1QsQ0FxQkssQ0FTakIsRUFPdUIsR0FyQlgsQUFTTyxHQXhCc0IsQUFRcEIsQUFpQ0MsR0E3QnRCLEdBU0EsQ0FMVyxRQXFCVSxDQXBCckIsR0FSQSxDQWlDQSxpQkF6Q2UsYUFDQyxLQThCRCxTQTdCaUIsQ0FzQlQsR0FRdkIsa0JBUEEsR0FZQSxLQWxDQSIsImZpbGUiOiJjb21wb25lbnRzL2FwcC5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMvYWthbGlsaS9HaXRIdWIvd2FpdGluZy1yb29tIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEZlZWQgZnJvbSAnLi9mZWVkJztcbmltcG9ydCBXZWF0aGVyIGZyb20gJy4vd2VhdGhlcic7XG5pbXBvcnQgVGltZSBmcm9tICcuL3RpbWUnO1xuLy8gaW1wb3J0IFZpZGVvIGZyb20gJy4vdmlkZW8tcGxheWVyJztcbmltcG9ydCBGb290ZXIgZnJvbSAnLi9mb290ZXInO1xuXG5leHBvcnQgZGVmYXVsdCAoKSA9PiAoXG4gIDxkaXYgY2xhc3NOYW1lPVwibWFpbl9fd3JhcFwiPlxuICAgIDxkaXYgY2xhc3NOYW1lPVwidGltZV9fd3JhcFwiPlxuICAgICAgPFRpbWUgLz5cbiAgICA8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzTmFtZT1cImZlZWRfX3dyYXBcIj5cbiAgICAgIDxGZWVkIC8+XG4gICAgPC9kaXY+XG4gICAgPGRpdiBjbGFzc05hbWU9XCJ3ZWF0aGVyX193cmFwXCI+XG4gICAgICA8V2VhdGhlciAvPlxuICAgIDwvZGl2PlxuICAgIDxkaXYgY2xhc3NOYW1lPVwidmlkZW9fX3dyYXBcIj52aWRlbyBwbGF5ZXI8L2Rpdj5cbiAgICA8ZGl2IGNsYXNzTmFtZT1cImZvb3Rlcl9fd3JhcFwiPlxuICAgICAgPEZvb3RlciAvPlxuICAgIDwvZGl2PlxuXG4gICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcbiAgICAgIC5tYWluX193cmFwIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBmb250OiAxNXB4IEhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWY7XG4gICAgICAgIGRpc3BsYXk6IGdyaWQ7XG4gICAgICAgIGdyaWQtZ2FwOiAyMHB4O1xuICAgICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDJmciAzZnI7XG4gICAgICB9XG5cbiAgICAgIC50aW1lX193cmFwIHtcbiAgICAgICAgZ3JpZC1jb2x1bW46IDEgLyAtMTtcbiAgICAgICAganVzdGlmeS1zZWxmOiByaWdodDtcbiAgICAgIH1cbiAgICAgIC5mZWVkX193cmFwIHtcbiAgICAgICAgZ3JpZC1yb3ctc3RhcnQ6IHNwYW4gMjtcbiAgICAgIH1cbiAgICAgIC5mZWVkX193cmFwIHVsIHtcbiAgICAgICAgbGlzdC1zdHlsZTogbm9uZTtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgfVxuICAgICAgLmZlZWRfX3dyYXAgbGkge1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBtYXJnaW46IDAuNWVtIDA7XG4gICAgICB9XG4gICAgICAud2VhdGhlcl9fd3JhcCB7XG4gICAgICAgIG92ZXJmbG93OiBoaWRkZW47XG4gICAgICAgIGFsaWduLXNlbGY6IHN0YXJ0O1xuICAgICAgICBqdXN0aWZ5LXNlbGY6IHN0cmV0Y2g7XG4gICAgICB9XG4gICAgICAud2VhdGhlcl9fd3JhcCBpbWcge1xuICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgIH1cbiAgICAgIC52aWRlb19fd3JhcCB7XG4gICAgICAgIGFsaWduLXNlbGY6IHN0cmV0Y2g7XG4gICAgICAgIGRpc3BsYXk6IGdyaWQ7XG4gICAgICB9XG4gICAgICAudmlkZW9fX3dyYXAgaWZyYW1lIHtcbiAgICAgICAgaGVpZ2h0OiA0MThweDtcbiAgICAgICAganVzdGlmeS1zZWxmOiBzdHJldGNoO1xuICAgICAgICBhbGlnbi1zZWxmOiBzdHJldGNoO1xuICAgICAgfVxuICAgICAgLmZvb3Rlcl9fd3JhcCB7XG4gICAgICAgIGdyaWQtY29sdW1uOiAxIC8gLTE7XG4gICAgICAgIGp1c3RpZnktc2VsZjogY2VudGVyO1xuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cbiAgPC9kaXY+XG4pO1xuIl19 */\n/*@ sourceURL=components/app.js */'
-    })
-  );
-});
+module.exports = require("react");
 
 /***/ }),
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
 
-/***/ "./components/feed.js":
+module.exports = __webpack_require__(2);
+
+
+/***/ }),
+/* 2 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_newsapi__ = __webpack_require__("newsapi");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_newsapi___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_newsapi__);
-var _jsxFileName = '/Users/akalili/GitHub/waiting-room/components/feed.js';
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
+// EXTERNAL MODULE: external "react"
+var external__react_ = __webpack_require__(0);
+var external__react__default = /*#__PURE__*/__webpack_require__.n(external__react_);
+
+// EXTERNAL MODULE: external "next/head"
+var head_ = __webpack_require__(3);
+var head__default = /*#__PURE__*/__webpack_require__.n(head_);
+
+// EXTERNAL MODULE: external "styled-jsx/style"
+var style_ = __webpack_require__(4);
+var style__default = /*#__PURE__*/__webpack_require__.n(style_);
+
+// EXTERNAL MODULE: external "newsapi"
+var external__newsapi_ = __webpack_require__(5);
+var external__newsapi__default = /*#__PURE__*/__webpack_require__.n(external__newsapi_);
+
+// CONCATENATED MODULE: ./components/feed.js
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -215,7 +125,7 @@ var url = 'https://newsapi.org/v2/top-headlines?' + 'country=us&' + 'apiKey=7397
 //   console.log(response.json());
 // });
 
-var Feed = function (_React$Component) {
+var feed_Feed = function (_React$Component) {
   _inherits(Feed, _React$Component);
 
   function Feed(props) {
@@ -263,45 +173,26 @@ var Feed = function (_React$Component) {
           articles = _state.articles;
 
       if (error) {
-        return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        return external__react__default.a.createElement(
           'div',
-          {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 49
-            }
-          },
+          null,
           'Error: ',
           error.message
         );
       } else if (!isLoaded) {
-        return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        return external__react__default.a.createElement(
           'div',
-          {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 51
-            }
-          },
+          null,
           'Loading...'
         );
       } else {
-        return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        return external__react__default.a.createElement(
           'ul',
-          {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 54
-            }
-          },
+          null,
           articles.map(function (item) {
-            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            return external__react__default.a.createElement(
               'li',
-              { key: item.id, __source: {
-                  fileName: _jsxFileName,
-                  lineNumber: 54
-                }
-              },
+              { key: item.id },
               item.title
             );
           })
@@ -311,137 +202,23 @@ var Feed = function (_React$Component) {
   }]);
 
   return Feed;
-}(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Component);
+}(external__react__default.a.Component);
 
-/* harmony default export */ __webpack_exports__["a"] = (Feed);
+/* harmony default export */ var feed = (feed_Feed);
+// EXTERNAL MODULE: external "babel-runtime/regenerator"
+var regenerator_ = __webpack_require__(6);
+var regenerator__default = /*#__PURE__*/__webpack_require__.n(regenerator_);
 
-/***/ }),
+// EXTERNAL MODULE: external "next/link"
+var link_ = __webpack_require__(7);
+var link__default = /*#__PURE__*/__webpack_require__.n(link_);
 
-/***/ "./components/footer.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+// EXTERNAL MODULE: external "isomorphic-unfetch"
+var external__isomorphic_unfetch_ = __webpack_require__(8);
+var external__isomorphic_unfetch__default = /*#__PURE__*/__webpack_require__.n(external__isomorphic_unfetch_);
 
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _jsxFileName = '/Users/akalili/GitHub/waiting-room/components/footer.js';
+// CONCATENATED MODULE: ./components/weather.js
 
-
-var Footer = function Footer() {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    'footer',
-    {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 4
-      }
-    },
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'h1',
-      {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 5
-        }
-      },
-      'Waiting Room Dashboard / Customer Info'
-    )
-  );
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (Footer);
-
-/***/ }),
-
-/***/ "./components/time.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _jsxFileName = '/Users/akalili/GitHub/waiting-room/components/time.js';
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-var Time = function (_React$Component) {
-  _inherits(Time, _React$Component);
-
-  function Time(props) {
-    _classCallCheck(this, Time);
-
-    var _this = _possibleConstructorReturn(this, (Time.__proto__ || Object.getPrototypeOf(Time)).call(this, props));
-
-    _this.state = { date: new Date() };
-    return _this;
-  }
-
-  _createClass(Time, [{
-    key: 'componentDidMount',
-    value: function componentDidMount() {
-      var _this2 = this;
-
-      this.timerID = setInterval(function () {
-        return _this2.tick();
-      }, 1000);
-    }
-  }, {
-    key: 'componentWillUnmount',
-    value: function componentWillUnmount() {
-      clearInterval(this.timerID);
-    }
-  }, {
-    key: 'tick',
-    value: function tick() {
-      this.setState({
-        date: new Date()
-      });
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'h2',
-        {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 24
-          }
-        },
-        'It is ',
-        this.state.date.toLocaleTimeString(),
-        '.'
-      );
-    }
-  }]);
-
-  return Time;
-}(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["a"] = (Time);
-
-/***/ }),
-
-/***/ "./components/weather.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator__ = __webpack_require__("babel-runtime/regenerator");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__("next/link");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_link__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_isomorphic_unfetch__ = __webpack_require__("isomorphic-unfetch");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_isomorphic_unfetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_isomorphic_unfetch__);
-
-var _jsxFileName = '/Users/akalili/GitHub/waiting-room/components/weather.js';
 
 
 function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
@@ -449,47 +226,32 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 
 
 
-var Weather = function Weather(props) {
-  return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+var weather_Weather = function Weather(props) {
+  return external__react__default.a.createElement(
     'div',
-    {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 5
-      }
-    },
-    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+    null,
+    external__react__default.a.createElement(
       'h1',
-      {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 6
-        }
-      },
+      null,
       'Batman TV Shows'
     ),
-    __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
+    external__react__default.a.createElement(
       'div',
-      {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 7
-        }
-      },
+      null,
       'Yokels: ',
       props.shows
     )
   );
 };
 
-Weather.getInitialProps = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator___default.a.mark(function _callee() {
+weather_Weather.getInitialProps = _asyncToGenerator( /*#__PURE__*/regenerator__default.a.mark(function _callee() {
   var res, data;
-  return __WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator___default.a.wrap(function _callee$(_context) {
+  return regenerator__default.a.wrap(function _callee$(_context) {
     while (1) {
       switch (_context.prev = _context.next) {
         case 0:
           _context.next = 2;
-          return __WEBPACK_IMPORTED_MODULE_3_isomorphic_unfetch___default()('https://api.tvmaze.com/search/shows?q=batman');
+          return external__isomorphic_unfetch__default()('https://api.tvmaze.com/search/shows?q=batman');
 
         case 2:
           res = _context.sent;
@@ -514,147 +276,211 @@ Weather.getInitialProps = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MOD
   }, _callee, this);
 }));
 
-/* harmony default export */ __webpack_exports__["a"] = (Weather);
+/* harmony default export */ var weather = (weather_Weather);
+// CONCATENATED MODULE: ./components/time.js
+var time__createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-/***/ }),
+function time__classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-/***/ "./pages/index.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+function time__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head__ = __webpack_require__("next/head");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_head__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_app__ = __webpack_require__("./components/app.js");
-var _jsxFileName = '/Users/akalili/GitHub/waiting-room/pages/index.js';
+function time__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 
 
+var time_Time = function (_React$Component) {
+  time__inherits(Time, _React$Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+  function Time(props) {
+    time__classCallCheck(this, Time);
+
+    var _this = time__possibleConstructorReturn(this, (Time.__proto__ || Object.getPrototypeOf(Time)).call(this, props));
+
+    _this.state = { date: new Date() };
+    return _this;
+  }
+
+  time__createClass(Time, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      this.timerID = setInterval(function () {
+        return _this2.tick();
+      }, 1000);
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      clearInterval(this.timerID);
+    }
+  }, {
+    key: 'tick',
+    value: function tick() {
+      this.setState({
+        date: new Date()
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return external__react__default.a.createElement(
+        'h2',
+        null,
+        'It is ',
+        this.state.date.toLocaleTimeString(),
+        '.'
+      );
+    }
+  }]);
+
+  return Time;
+}(external__react__default.a.Component);
+
+/* harmony default export */ var time = (time_Time);
+// CONCATENATED MODULE: ./components/footer.js
+
+
+var footer_Footer = function Footer() {
+  return external__react__default.a.createElement(
+    'footer',
+    null,
+    external__react__default.a.createElement(
+      'h1',
+      null,
+      'Waiting Room Dashboard / Customer Info'
+    )
+  );
+};
+
+/* harmony default export */ var footer = (footer_Footer);
+// CONCATENATED MODULE: ./components/app.js
+
+
+
+
+
+// import Video from './video-player';
+
+
+/* harmony default export */ var app = (function () {
+  return external__react__default.a.createElement(
     'div',
     {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 5
-      }
+      className: 'jsx-557044800' + ' ' + 'main__wrap'
     },
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      __WEBPACK_IMPORTED_MODULE_1_next_head___default.a,
+    external__react__default.a.createElement(
+      'div',
       {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 6
-        }
+        className: 'jsx-557044800' + ' ' + 'time__wrap'
       },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      external__react__default.a.createElement(time, null)
+    ),
+    external__react__default.a.createElement(
+      'div',
+      {
+        className: 'jsx-557044800' + ' ' + 'feed__wrap'
+      },
+      external__react__default.a.createElement(feed, null)
+    ),
+    external__react__default.a.createElement(
+      'div',
+      {
+        className: 'jsx-557044800' + ' ' + 'weather__wrap'
+      },
+      external__react__default.a.createElement(weather, null)
+    ),
+    external__react__default.a.createElement(
+      'div',
+      {
+        className: 'jsx-557044800' + ' ' + 'video__wrap'
+      },
+      'video player'
+    ),
+    external__react__default.a.createElement(
+      'div',
+      {
+        className: 'jsx-557044800' + ' ' + 'footer__wrap'
+      },
+      external__react__default.a.createElement(footer, null)
+    ),
+    external__react__default.a.createElement(style__default.a, {
+      styleId: '557044800',
+      css: ['.main__wrap{margin:0;padding:0;font:15px Helvetica,Arial,sans-serif;display:grid;grid-gap:20px;grid-template-columns:2fr 3fr;}', '.time__wrap{grid-column:1 / -1;justify-self:right;}', '.feed__wrap{grid-row-start:span 2;}', '.feed__wrap ul{list-style:none;padding:0;margin:0;}', '.feed__wrap li{padding:0;margin:0.5em 0;}', '.weather__wrap{overflow:hidden;-webkit-align-self:start;-ms-flex-item-align:start;align-self:start;justify-self:stretch;}', '.weather__wrap img{width:100%;}', '.video__wrap{-webkit-align-self:stretch;-ms-flex-item-align:stretch;align-self:stretch;display:grid;}', '.video__wrap iframe{height:418px;justify-self:stretch;-webkit-align-self:stretch;-ms-flex-item-align:stretch;align-self:stretch;}', '.footer__wrap{grid-column:1 / -1;justify-self:center;}']
+    })
+  );
+});
+// CONCATENATED MODULE: ./pages/index.js
+
+
+
+
+/* harmony default export */ var pages = __webpack_exports__["default"] = (function () {
+  return external__react__default.a.createElement(
+    'div',
+    null,
+    external__react__default.a.createElement(
+      head__default.a,
+      null,
+      external__react__default.a.createElement(
         'title',
-        {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 7
-          }
-        },
+        null,
         'My page title'
       ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', {
+      external__react__default.a.createElement('meta', {
         name: 'viewport',
         content: 'initial-scale=1.0, width=device-width',
-        key: 'viewport',
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 8
-        }
+        key: 'viewport'
       })
     ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      __WEBPACK_IMPORTED_MODULE_1_next_head___default.a,
-      {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
-        }
-      },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('meta', {
+    external__react__default.a.createElement(
+      head__default.a,
+      null,
+      external__react__default.a.createElement('meta', {
         name: 'viewport',
         content: 'initial-scale=1.2, width=device-width',
-        key: 'viewport',
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        }
+        key: 'viewport'
       })
     ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_app__["a" /* default */], {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 21
-      }
-    })
+    external__react__default.a.createElement(app, null)
   );
 });
 
 /***/ }),
-
-/***/ 2:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("./pages/index.js");
-
-
-/***/ }),
-
-/***/ "babel-runtime/regenerator":
-/***/ (function(module, exports) {
-
-module.exports = require("babel-runtime/regenerator");
-
-/***/ }),
-
-/***/ "isomorphic-unfetch":
-/***/ (function(module, exports) {
-
-module.exports = require("isomorphic-unfetch");
-
-/***/ }),
-
-/***/ "newsapi":
-/***/ (function(module, exports) {
-
-module.exports = require("newsapi");
-
-/***/ }),
-
-/***/ "next/head":
+/* 3 */
 /***/ (function(module, exports) {
 
 module.exports = require("next/head");
 
 /***/ }),
+/* 4 */
+/***/ (function(module, exports) {
 
-/***/ "next/link":
+module.exports = require("styled-jsx/style");
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports) {
+
+module.exports = require("newsapi");
+
+/***/ }),
+/* 6 */
+/***/ (function(module, exports) {
+
+module.exports = require("babel-runtime/regenerator");
+
+/***/ }),
+/* 7 */
 /***/ (function(module, exports) {
 
 module.exports = require("next/link");
 
 /***/ }),
-
-/***/ "react":
+/* 8 */
 /***/ (function(module, exports) {
 
-module.exports = require("react");
-
-/***/ }),
-
-/***/ "styled-jsx/style":
-/***/ (function(module, exports) {
-
-module.exports = require("styled-jsx/style");
+module.exports = require("isomorphic-unfetch");
 
 /***/ })
-
-/******/ });
-//# sourceMappingURL=index.js.map
+/******/ ]);
